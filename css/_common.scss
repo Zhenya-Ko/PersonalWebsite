@@ -1,0 +1,106 @@
+//  Delete browsers settings 
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    padding-inline-start:0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+//HTML5 display-role reset for older browsers
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body{
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+//Add fonts
+
+@font-face {
+    font-family:'NewBodoni';
+    src:
+    url('/font/newBodoni.woff') format('woff'),
+    url('/font/newBodoni.ttf') format('ttf');
+    font-style:normal;
+    font-weight: normal;
+    }
+
+@font-face {
+    font-family:'thamesC';
+    src:
+    url('/font/thamesC.woff') format('woff'),
+    url('/font/thamesC.otf') format('otf');
+    font-style:normal;
+    font-weight: normal;
+    }
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@0;1&display=swap');
+
+// Mixins
+@mixin fonts($fs,$flh){
+    font-size:$fs;
+    line-height: $flh;
+}
+
+//Extend
+%astyle{
+    color: #fff;
+    font-weight: 400;
+    font-family: thamesC;
+    font-size: 0.875rem;
+    text-align: center;
+    text-decoration: none;
+    margin: 9%;
+}
+%navstyle{
+    margin-bottom: 35px;
+    text-align: center;
+    padding-top: 15px;
+}
+%h1{
+    color: #fff;
+    font-weight: 400;
+    font-family: thamesC;
+    font-size: 1.5rem;
+    text-align: center;
+}
+%bg{
+    min-width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
