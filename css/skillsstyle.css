@@ -100,7 +100,7 @@ h1 {
 }
 
 .bg {
-  background-image: url(/images/skillsphone.png);
+  background-image: url(../images/skillsphone.png);
   min-height: 100vh;
 }
 
@@ -187,7 +187,7 @@ li {
 
 @media screen and (min-width: 576px) and (orientation: landscape) {
   .bg {
-    background-image: url(/images/skillsdesktop.png);
+    background-image: url(../images/skillsdesktop.png);
   }
   nav {
     padding-top: 40px;
