@@ -18,7 +18,7 @@ body{
 }
 .bg{
 @extend %bg;
-    background-image: url(/images/mainphone.png);
+    background-image: url(images/mainphone.png);
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
