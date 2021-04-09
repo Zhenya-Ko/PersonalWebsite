@@ -5,7 +5,7 @@ body{
 }
 
 .bg{
-    background-image: url(/images/projectsphone.png);
+    background-image: url(../images/projectsphone.png);
 @extend %bg;
 text-align: center;
 padding-bottom: 10px;
@@ -139,7 +139,7 @@ margin-bottom: 16px;
 @media screen and (min-width: 576px)
 {
  .bg{
-     background-image: url(/images/projectsdesktop.png);
+     background-image: url(../images/projectsdesktop.png);
      padding-bottom: 0px;
  }
  nav{
