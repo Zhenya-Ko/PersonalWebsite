@@ -18,7 +18,7 @@ body{
 }
 .bg{
 @extend %bg;
-    background-image: url(images/mainphone.png);
+    background-image: url(../images/mainphone.png);
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -149,7 +149,7 @@ margin-bottom: 16px;
 @media screen and (min-width: 576px) and (orientation:landscape)
 {
  .bg{
-        background-image: url(/images/maindesktop.png);
+        background-image: url(../images/maindesktop.png);
         display:flex;
         justify-content: flex-start;
         align-items: flex-end;
