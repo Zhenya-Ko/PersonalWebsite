@@ -240,7 +240,7 @@ button:focus {
 
 @media screen and (min-width: 576px) and (orientation: landscape) {
   .bg {
-    background-image: url(/images/maindesktop.png);
+    background-image: url(images/maindesktop.png);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
