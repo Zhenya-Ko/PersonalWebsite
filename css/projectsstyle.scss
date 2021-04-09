@@ -74,6 +74,9 @@ margin: 0 auto;
 margin-top: 5%;
 cursor: pointer;
 }
+button:focus{
+outline:none;
+}
 
 #modal {
     position: fixed;
