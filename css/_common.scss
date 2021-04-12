@@ -54,8 +54,9 @@ table {
 @font-face {
     font-family:'NewBodoni';
     src:
-    url('/font/newBodoni.woff') format('woff'),
-    url('/font/newBodoni.ttf') format('ttf');
+        url('../font/newBodoni.woff2')format('woff2')
+    url('../font/newBodoni.woff') format('woff'),
+    url('../font/newBodoni.ttf') format('ttf');
     font-style:normal;
     font-weight: normal;
     }
@@ -63,8 +64,8 @@ table {
 @font-face {
     font-family:'thamesC';
     src:
-    url('/font/thamesC.woff') format('woff'),
-    url('/font/thamesC.otf') format('otf');
+    url('../font/thamesC.woff') format('woff'),
+    url('../font/thamesC.otf') format('otf');
     font-style:normal;
     font-weight: normal;
     }
