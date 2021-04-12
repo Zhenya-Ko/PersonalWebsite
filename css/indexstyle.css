@@ -106,7 +106,7 @@ h1 {
   font-size: 1.875rem;
   text-align: center;
   background-color: rgba(113, 33, 33, 0.75);
-  font-family: NewBodoni !important;
+  font-family: NewBodoni;
 }
 
 nav {
