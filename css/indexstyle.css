@@ -56,7 +56,7 @@ table {
 
 @font-face {
   font-family: 'NewBodoni';
-  src: local('NewBodoni'), url("/font/newBodoni.woff") format("woff"), url("../font/newBodoni.ttf") format("ttf");
+  src: local('NewBodoni'), url("/font/newBodoni.woff") format("woff"), url('../font/newBodoni.woff2') format('woff2'), url("../font/newBodoni.ttf") format("ttf");
   font-style: normal;
   font-weight: normal;
 }
