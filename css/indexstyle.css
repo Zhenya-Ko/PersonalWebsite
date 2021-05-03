@@ -56,14 +56,14 @@ table {
 
 @font-face {
   font-family: 'NewBodoni';
-  src: local('NewBodoni'), url("../font/newBodoni.woff") format("woff"), url('../font/newBodoni.woff2') format('woff2'), url("../font/newBodoni.ttf") format("ttf");
+  src: local('NewBodoni'), url("../fonts/newBodoni.woff") format("woff"), url('../fonts/newBodoni.woff2') format('woff2'), url("../fonts/newBodoni.ttf") format("ttf");
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
   font-family: 'thamesC';
-  src: local('thamesC') url("../font/thamesC.woff") format("woff"), url("../font/thamesC.otf") format("otf");
+  src: local('thamesC') url("../fonts/thamesC.woff") format("woff"), url("../fonts/thamesC.otf") format("otf");
   font-style: normal;
   font-weight: normal;
 }
